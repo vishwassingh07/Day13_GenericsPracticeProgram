@@ -8,23 +8,7 @@ namespace GenericsPracticeProgram
 {
     public class PrintArray
     {
-        public static void Toprint(int[] inputArray)
-        {
-            foreach(var element in inputArray)
-            {
-                Console.WriteLine(element);
-            }
-            Console.WriteLine("-----------------------------");
-        }
-        public static void Toprint(double[] inputArray)
-        {
-            foreach (var element in inputArray)
-            {
-                Console.WriteLine(element);
-            }
-            Console.WriteLine("-----------------------------");
-        }
-        public static void Toprint(char[] inputArray)
+        public static void Toprint<T>(T[] inputArray)
         {
             foreach (var element in inputArray)
             {

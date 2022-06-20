@@ -10,9 +10,9 @@ namespace GenericsPracticeProgram
             double[] doubleArray = { 11.22, 33.44, 55.66, 77.88 };
             char[] charArray = { 'I', 'N', 'D', 'I', 'A' };
 
-            PrintArray.Toprint(intArray);
-            PrintArray.Toprint(doubleArray);
-            PrintArray.Toprint(charArray);
+            PrintArray.Toprint<int>(intArray);
+            PrintArray.Toprint<double>(doubleArray);
+            PrintArray.Toprint<char>(charArray);
         }
     }
 }
